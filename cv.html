@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="CV — Mohannad Shafik" />
+  <title>CV — Mohannad Shafik</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Mohannad Shafik</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu2">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Start</a></li>
+          <li class="nav-item"><a class="nav-link active" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="hobby.html">Hobby</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="row g-4">
+     
+        <aside class="col-lg-4">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <img src="img/Foto.jpg" class="rounded-circle mb-3" alt="Mohannad" style="width:140px;height:140px;object-fit:cover;">
+              <h4 class="mb-1">Mohannad Shafik</h4>
+              <p class="text-muted mb-2">Student Programming — Thomas More</p>
+
+              <h6>Contact</h6>
+              <p class="small mb-1"><i class="fa fa-envelope me-2"></i> mooshafik826@gmail.com</p>
+              <p class="small mb-1"><i class="fa fa-map-marker-alt me-2"></i> Turnhout, België</p>
+
+              <h6 class="mt-3">Vaardigheden</h6>
+              <ul class="list-unstyled small">
+                <li>HTML / CSS / JavaScript</li>
+                <li>Python</li>
+                <li>Git & GitHub</li>
+                <li>Figma</li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+
+      
+        <section class="col-lg-8">
+          <h2>Persoonlijk profiel</h2>
+          <p>Ik ben een 19-jarige IT-student met interesse in webdevelopment en design. Ik leer graag door te bouwen en werk graag aan projecten die mijn vaardigheden verbeteren.</p>
+
+          <h3>Opleiding</h3>
+          <ul>
+            <li>Thomas More — Programming (EQF5) — momenteel ingeschreven</li>
+            <li>EQF4 diploma IT</li>
+          </ul>
+
+          <h3>Ervaring</h3>
+          <p>2 weken internationale stage in Malta — samenwerken in een multicultureel team, werken met deadlines en praktische webtaken uitvoeren.</p>
+
+          <h3>Talen</h3>
+          <p>Nederlands (C2) • Engels (C2) • Frans (B1) • Arabisch (moedertaal)</p>
+
+       
+          <h3>Skills — portfolio logos</h3>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+             
+              <div class="swiper-slide"><img src="img/htm;.webp" alt="skill1" class="img-fluid rounded"></div>
+              <div class="swiper-slide"><img src="img/Python.png" alt="skill2" class="img-fluid rounded"></div>
+              <div class="swiper-slide"><img src="img/git-bash.svg" alt="skill3" class="img-fluid rounded"></div>
+              <div class="swiper-slide"><img src="img/figma.png" alt="skill4" class="img-fluid rounded"></div>
+              <div class="swiper-slide"><img src="img/mobile-computer-repair.avif" alt="skill5" class="img-fluid rounded"></div>
+            </div>
+          </div>
+
+        </section>
+      </div>
+    </div>
+  </main>
+
+  
+  <footer class="footer bg-white border-top py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <small>© <span id="yearCV"></span> Mohannad Shafik</small>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <a href="https://instagram.com/ms_egp" class="me-2"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="me-2"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>document.getElementById('yearCV').textContent = new Date().getFullYear();</script>
+</body>
+</html>
